@@ -3,7 +3,7 @@ Fireprog is a utility which can program Xilinx Spartan 3 FPGAs via FT232H-based 
 It is based on fpgaprog and Papilio-Prog, to which support for Micron M25PE10 SPI flash was added.
 Fireprog is used to configure Prometheus FPGA boards.
 
-Copyright (C) Altynbek Isabekov, Onurhan Öztürk
+Copyleft (C) Altynbek Isabekov, Onurhan Öztürk
 License:  GNU General Public License v2
 
 ## Compilation on Linux
