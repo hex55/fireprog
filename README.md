@@ -8,9 +8,12 @@ License:  GNU General Public License v2
 
 ## Compilation on Linux
 
-To compile on Linux, run:
+To compile on Linux, install *libusb* and *libftdi* first and then run *make*:
+	
+	sudo pacman -S libusb libftdi
 	make clean
 	make
+	
 The resulting ELF binary "fireprog" will be linked with libusb and libftdi.
 
 ## Cross-compilation on Linux for Windows
